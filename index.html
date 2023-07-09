@@ -10,11 +10,11 @@
 </head>
 <body>
     <NavBar id="desktop-nav">
-        <div class="logo">
+        <div className="logo">
             Vasishta Malisetty
         </div>
         <div>
-            <ul class="nav-links">
+            <ul className="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -23,16 +23,16 @@
         </div>
     </NavBar>
     <NavBar id="hamburger-nav">
-        <div class="logo">
+        <div className="logo">
             Vasishta Malisetty
         </div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
+        <div className="hamburger-menu">
+            <div className="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-            <div class="menu-links">
+            <div className="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
@@ -40,6 +40,22 @@
             </div>
         </div>
     </NavBar>
+    <section id="profile">
+        <div className="section_pic-container">
+            <img src="./assets/profile-picture.png" alt="Vasishta Malisetty Profile Picture"/>
+        </div>
+        <div className="section__text">
+            <p className="section__text__p1">
+                Hello, I'm
+            </p>
+            <h1 className="title">
+                Vasishta Malisetty
+            </h1>
+            <p className="section__text__p2">
+                Computer Engineering @ Northeastern
+            </p>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
