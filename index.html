@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Vasishta's Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="media.css">
 </head>
 <body>
     <NavBar id="desktop-nav">
-        <div className="logo">
+        <div class="logo">
             Vasishta Malisetty
         </div>
         <div>
-            <ul className="nav-links">
+            <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -23,16 +23,16 @@
         </div>
     </NavBar>
     <NavBar id="hamburger-nav">
-        <div className="logo">
+        <div class="logo">
             Vasishta Malisetty
         </div>
-        <div className="hamburger-menu">
-            <div className="hamburger-icon" onclick="toggleMenu()">
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-            <div className="menu-links">
+            <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
@@ -41,21 +41,33 @@
         </div>
     </NavBar>
     <section id="profile">
-        <div className="section_pic-container">
+        <div class="section_pic-container">
             <img src="./assets/profile-picture.png" alt="Vasishta Malisetty Profile Picture"/>
         </div>
-        <div className="section__text">
+        <div class="section__text">
             <p className="section__text__p1">
                 Hello, I'm
             </p>
-            <h1 className="title">
+            <h1 class="title">
                 Vasishta Malisetty
             </h1>
-            <p className="section__text__p2">
-                Computer Engineering @ Northeastern
+            <p class="section__text__p2">
+                Computer Engineering @ Northeastern University
             </p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Vasishta-Malisetty-Resume.pdf')">
+                    Resume
+                </button>
+                <button class="btn btn-color-1" onclick="location.href('./#contact')">
+                    Contact
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn Page" class="icon" onclick="location.href='https://www.linkedin.com/in/vmalisetty/'"/>
+                <img src="./assets/github.png" alt="GitHub Page" class="icon" onclick="location.href='https://github.com/vmalisetty-23'"/>
+            </div>
         </div>
-    </section>
-    <script src="script.js"></script>
-</body>
+        </section>
+        <script src="script.js"></script>
+    </body>
 </html>
