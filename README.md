@@ -8,7 +8,7 @@ Welcome to the README file for my personal website portfolio! This document prov
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
-- 
+  
 ## Introduction
 
 This portfolio website is designed and developed by Vasishta Malisetty to showcase my skills, projects, and experiences in a visually appealing manner. It serves as an online resume and a platform to present my work to potential employers, clients, or collaborators.
