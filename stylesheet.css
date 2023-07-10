@@ -289,11 +289,11 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
-    padding-bottom: 17rem;
+    padding-bottom: 0rem;
 }
 
 .section__text__p1__about {
-    padding-top: 8rem;
+    padding-top: 12rem;
     text-align: center;
     font-size: 1.25rem;
 }
