@@ -301,8 +301,8 @@ section {
 
 .section__text__p2__about {
     position: relative;
+    margin-top: 175px;
     font-size: 28px;
-    padding-top: 128px;
 }
 
 #experience {
