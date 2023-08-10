@@ -1,6 +1,8 @@
 # Vasishta Malisetty's Personal Portfolio
 
-Welcome to the README file for my personal website portfolio! This document provides an overview of my portfolio website, including its purpose, features, and how to set it up locally.
+Welcome to the README file for my personal website portfolio! This document provides an overview of my portfolio website.
+
+LINK: https://vasishta-malisetty.netlify.app/
 
 ## Table of Contents
 
