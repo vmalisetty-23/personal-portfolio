@@ -262,6 +262,7 @@ section {
 
 .about-pic {
     position: relative;
+    align-items: center;
     border-radius: 1rem;
 }
 
