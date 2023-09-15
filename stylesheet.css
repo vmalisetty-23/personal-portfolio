@@ -302,6 +302,7 @@ section {
 .section__text__p2__about {
     position: absolute;
     margin-top: 135px;
+    margin-left: 100px;
     font-size: 28px;
 }
 
