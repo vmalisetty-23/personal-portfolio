@@ -252,7 +252,7 @@ section {
 }
 
 .about-details-container {
-    justify-content: left;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -302,7 +302,7 @@ section {
 .section__text__p2__about {
     position: relative;
     padding-top: 110px;
-    text-align: right;
+    text-align: left;
     font-size: 28px;
 }
 
